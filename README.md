@@ -41,6 +41,7 @@ Visual Studio Codeの拡張機能「Live Server」などを利用して index.ht
   　
 ## 📊 データの更新方法 (Data Update)
 文化財データを追加・修正する場合は、index.html を編集する必要はありません。 data.geojson ファイルを以下の形式で編集してください。  
+```data.geojson
 {  
   "type": "Feature",  
   "geometry": {  
@@ -52,7 +53,8 @@ Visual Studio Codeの拡張機能「Live Server」などを利用して index.ht
     "type": "種別（例：市指定史跡）",  
     "desc": "解説文"  
   }  
-}  
+}
+```
   　
 ## 🌍 データ出典 (Data Source)
 本アプリケーションで使用している文化財データは、以下のオープンデータを利用・加工しています。  
