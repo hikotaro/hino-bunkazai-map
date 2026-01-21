@@ -1,0 +1,608 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41374, 35.65884] },
+      "properties": {
+        "name": "金剛寺不動堂",
+        "type": "重要文化財(建造物)",
+        "desc": "南北朝時代初期の建立と推定される都内最古の木造建築物。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41423, 35.6588] },
+      "properties": {
+        "name": "金剛寺仁王門",
+        "type": "重要文化財(建造物)",
+        "desc": "室町時代末期に造られた一重八脚門。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "木造不動明王及二童子像",
+        "type": "重要文化財(彫刻)",
+        "desc": "平安時代末期の作と推定される丈六の不動明王像。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "鰐口",
+        "type": "重要文化財(工芸品)",
+        "desc": "文永10年（1273）の銘がある金剛寺の鰐口。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "高幡不動本尊像内文書",
+        "type": "重要文化財(古文書)",
+        "desc": "不動明王像内より発見された南北朝期初期の文書群。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "弘法大師二十五箇条遺告",
+        "type": "重要文化財(古文書)",
+        "desc": "平安時代の書写本。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41276, 35.65884] },
+      "properties": {
+        "name": "五部権現神碑",
+        "type": "重要美術品",
+        "desc": "暦応3年（1340）の年号を有する神碑。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "銅造阿弥陀如来坐像",
+        "type": "重要文化財(彫刻)",
+        "desc": "建長2年（1250）の銘を持つ鋳造仏。百草八幡神社所蔵。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "金剛寺旧五部権現社殿",
+        "type": "都指定有形文化財(建造物)",
+        "desc": "寛文11年（1671）再建の江戸初期の社殿。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "絹本着色弁財天十五童子像",
+        "type": "都指定有形文化財(絵画)",
+        "desc": "室町時代の作と推定される仏画。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "高幡山金剛寺文書",
+        "type": "都指定有形文化財(古文書)",
+        "desc": "近世の寺院経営や信仰行事に関する文書類。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41389, 35.65852] },
+      "properties": {
+        "name": "近藤勇・土方歳三顕彰碑",
+        "type": "市指定史跡",
+        "desc": "新選組の両雄を讃える「殉節両雄の碑」。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41319, 35.65881] },
+      "properties": {
+        "name": "板碑 文永八年",
+        "type": "市指定史跡",
+        "desc": "市内最大・最古の板碑。平維盛の墓との伝承がある。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41293, 35.65809] },
+      "properties": {
+        "name": "金剛寺のサンシュユ",
+        "type": "市指定天然記念物",
+        "desc": "樹高約10mの巨木。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41398, 35.65882] },
+      "properties": {
+        "name": "愛宕山の自生針葉樹群",
+        "type": "市指定天然記念物",
+        "desc": "金剛寺裏山に自生するクロマツ、アカマツ、モミの群落。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.38528, 35.64178] },
+      "properties": {
+        "name": "平山季重の墓",
+        "type": "都指定旧跡",
+        "desc": "宗印寺にある平山季重の供養塔。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.39493, 35.67182] },
+      "properties": {
+        "name": "坂西横穴墓群",
+        "type": "都指定史跡",
+        "desc": "7〜8世紀頃の横穴墓群。壁面に白色粘土が塗布されている。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.4405, 35.6506] },
+      "properties": {
+        "name": "落川遺跡",
+        "type": "都指定史跡",
+        "desc": "4世紀末から11世紀にかけての大規模集落遺跡。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.42985, 35.6506] },
+      "properties": {
+        "name": "百草のシイノキ群",
+        "type": "市指定天然記念物",
+        "desc": "百草園周辺に見られるスダジイの群落。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.43045, 35.65097] },
+      "properties": {
+        "name": "百草園（松連寺跡）",
+        "type": "市指定名勝・史跡",
+        "desc": "江戸時代の名勝。中世には真慈悲寺があったと推定される。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.42639, 35.66647] },
+      "properties": {
+        "name": "とうかん森",
+        "type": "市指定天然記念物",
+        "desc": "古くから土方一族が祀ってきた稲荷の森。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.38194, 35.67874] },
+      "properties": {
+        "name": "七ツ塚古墳群",
+        "type": "市指定史跡",
+        "desc": "古墳時代後期の群集墳。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.39594, 35.67874] },
+      "properties": {
+        "name": "加賀塚",
+        "type": "市指定史跡",
+        "desc": "北条氏照の家臣、竹間加賀守の墓と伝わる。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41837, 35.67151] },
+      "properties": {
+        "name": "甲州街道万願寺一里塚",
+        "type": "市指定史跡",
+        "desc": "江戸日本橋から9里目の一里塚。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.38411, 35.68199] },
+      "properties": {
+        "name": "東光寺大橋の碑",
+        "type": "市指定史跡",
+        "desc": "用水路にかかる橋の変遷を記した碑。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.39408, 35.65847] },
+      "properties": {
+        "name": "豊田・堀之内耕地整理の碑",
+        "type": "市指定史跡",
+        "desc": "耕地整理事業の記念碑。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.38391, 35.64419] },
+      "properties": {
+        "name": "平山季重居館跡",
+        "type": "市指定史跡",
+        "desc": "平山季重の館跡と伝えられる場所。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.43837, 35.65338] },
+      "properties": {
+        "name": "落川村制札場跡",
+        "type": "市指定史跡",
+        "desc": "幕府の法令を掲示した場所。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.42736, 35.66491] },
+      "properties": {
+        "name": "石田寺のカヤ",
+        "type": "市指定天然記念物",
+        "desc": "樹齢500年と推定されるカヤの巨木。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40051, 35.66072] },
+      "properties": {
+        "name": "日枝神社のムクノキ",
+        "type": "市指定天然記念物",
+        "desc": "樹齢400年と推定される市内最大のムクノキ。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40289, 35.67488] },
+      "properties": {
+        "name": "日野宿脇本陣跡",
+        "type": "都指定史跡",
+        "desc": "日野宿の名主佐藤彦右衛門家の屋敷跡。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40289, 35.67488] },
+      "properties": {
+        "name": "日野宿本陣",
+        "type": "市指定有形文化財(建造物)",
+        "desc": "幕末に建てられた本陣建物。新選組ゆかりの地。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40289, 35.67488] },
+      "properties": {
+        "name": "日野宿名主屋敷",
+        "type": "市指定史跡",
+        "desc": "日野宿の名主をつとめた下佐藤家の屋敷。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.38625, 35.64178] },
+      "properties": {
+        "name": "林丈太郎の墓碑",
+        "type": "市指定史跡",
+        "desc": "「平山陸稲」を発見した林丈太郎の墓。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40026, 35.67453] },
+      "properties": {
+        "name": "讃誉上人の墓",
+        "type": "市指定史跡",
+        "desc": "大昌寺を開山した高僧の墓。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40026, 35.67453] },
+      "properties": {
+        "name": "玉川居祐翁の墓",
+        "type": "市指定史跡",
+        "desc": "新選組に参加後、俳句・狂歌で活躍した文人の墓。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.43333, 35.6428] },
+      "properties": {
+        "name": "万蔵院台の庚申塔",
+        "type": "市指定有形民俗文化財",
+        "desc": "江戸時代の領主と住民が共に祀った庚申塔群。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.42922, 35.64711] },
+      "properties": {
+        "name": "百草観音堂仏教彫刻群",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "平安から江戸時代にかけての仏像群。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.42273, 35.66652] },
+      "properties": {
+        "name": "刀 銘和泉守兼定",
+        "type": "市指定有形文化財(工芸品)",
+        "desc": "土方歳三の愛刀。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.4066, 35.6453] },
+      "properties": {
+        "name": "多摩動物公園（天然記念物群）",
+        "type": "天然記念物",
+        "desc": "カモシカ、コウノトリ、タンチョウ等を飼育。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40049, 35.66145] },
+      "properties": {
+        "name": "板碑 文明二年九月廿三日",
+        "type": "市指定史跡",
+        "desc": "文明2年(1470)の逆修板碑。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.39897, 35.67587] },
+      "properties": {
+        "name": "八坂神社本殿",
+        "type": "市指定有形文化財(建造物)",
+        "desc": "総けやき造りの社殿。精緻な彫刻が施されている。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41784, 35.66756] },
+      "properties": {
+        "name": "安養寺本堂",
+        "type": "市指定有形文化財(建造物)",
+        "desc": "江戸中期以前の建立と推定される寄棟造の堂。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40277, 35.67618] },
+      "properties": {
+        "name": "普門寺観音堂",
+        "type": "市指定有形文化財(建造物)",
+        "desc": "江戸後期の卓越した技量を示す建造物。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.38661, 35.68196] },
+      "properties": {
+        "name": "薬師堂",
+        "type": "市指定有形文化財(建造物)",
+        "desc": "嘉永6年(1853)建立。眼病に霊験あらたかとされる。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.39341, 35.66834] },
+      "properties": {
+        "name": "拾遺和歌集 上（寂恵本）",
+        "type": "重要文化財(書籍)",
+        "desc": "実践女子大学所蔵。鎌倉時代の書写本。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3997, 35.6703] },
+      "properties": {
+        "name": "武蔵名勝図会稿本",
+        "type": "都指定有形文化財(古文書)",
+        "desc": "日野市立新選組のふるさと歴史館所蔵。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3997, 35.6746] },
+      "properties": {
+        "name": "平山2号古墳出土品",
+        "type": "都指定有形文化財(考古資料)",
+        "desc": "日野市立新選組のふるさと歴史館所蔵。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41784, 35.66756] },
+      "properties": {
+        "name": "木造阿弥陀如来坐像（安養寺）",
+        "type": "都指定有形文化財(彫刻)",
+        "desc": "12世紀の作といわれる定朝様式の坐像。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40048, 35.6746] },
+      "properties": {
+        "name": "説法色葉集",
+        "type": "都指定有形文化財(典籍)",
+        "desc": "大昌寺開山・讃誉上人の著書。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3975, 35.67464] },
+      "properties": {
+        "name": "紙本着色涅槃図",
+        "type": "市指定有形文化財(絵画)",
+        "desc": "宝泉寺所蔵。正徳年間の奉納とされる。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.39654, 35.6746] },
+      "properties": {
+        "name": "銅造地蔵菩薩坐像（坂下地蔵）",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "正徳3年(1713)鋳造の露座の地蔵。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.38661, 35.68196] },
+      "properties": {
+        "name": "木造薬師如来坐像（成就院）",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "室町時代の作と推定される。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3857, 35.64166] },
+      "properties": {
+        "name": "木造平山季重坐像",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "宗印寺所蔵。武将平山季重の僧形像。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3857, 35.64166] },
+      "properties": {
+        "name": "木造薬師如来坐像（宗印寺）",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "宗印寺薬師堂の本尊。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.38537, 35.64166] },
+      "properties": {
+        "name": "木造地蔵菩薩坐像及び千躰地蔵",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "宗印寺の日奉地蔵堂に安置。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.41784, 35.66756] },
+      "properties": {
+        "name": "木造毘沙門天立像",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "安養寺所蔵。鎌倉時代の作。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.40269, 35.67643] },
+      "properties": {
+        "name": "鉄製護摩炉",
+        "type": "市指定有形文化財(工芸品)",
+        "desc": "普門寺所蔵。室町時代の作と推定。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.37596, 35.645] },
+      "properties": {
+        "name": "八幡神社社宝（一括）",
+        "type": "市指定有形文化財(歴史資料)",
+        "desc": "徳川家康拝領と伝わる軍配団扇など。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3984, 35.668] },
+      "properties": {
+        "name": "落川遺跡出土石製刻字紡錘車",
+        "type": "市指定有形文化財(考古資料)",
+        "desc": "「和銅七年」の銘がある紡錘車。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3984, 35.668] },
+      "properties": {
+        "name": "神明上遺跡出土土器",
+        "type": "市指定有形文化財(考古資料)",
+        "desc": "古墳時代初頭の土器群。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3984, 35.668] },
+      "properties": {
+        "name": "真慈悲寺推定地出土の中世瓦",
+        "type": "市指定有形文化財(考古資料)",
+        "desc": "京王百草園内から出土した鎌倉時代の瓦。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.395, 35.68125] },
+      "properties": {
+        "name": "木造菩薩立像（伝虚空蔵菩薩像）",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "日野宮神社の本地仏。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.3845, 35.66976] },
+      "properties": {
+        "name": "上人塚",
+        "type": "市指定有形民俗文化財",
+        "desc": "日野用水の功労者・佐藤隼人を称える塚。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.37888, 35.65582] },
+      "properties": {
+        "name": "まつり塚",
+        "type": "市指定有形民俗文化財",
+        "desc": "村境で悪霊を防ぐ「道きり」が行われた場所。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.413, 35.6589] },
+      "properties": {
+        "name": "金剛寺聖教類",
+        "type": "市指定有形文化財(典籍)",
+        "desc": "金剛寺に伝わる膨大な聖教文書群。"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [139.395, 35.68125] },
+      "properties": {
+        "name": "木造阿弥陀如来立像",
+        "type": "市指定有形文化財(彫刻)",
+        "desc": "日野宮神社所蔵。室町時代の作。"
+      }
+    }
+  ]
+}
