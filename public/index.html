@@ -104,7 +104,7 @@
     <script>
       // --- 1. 地図の初期化 ---
       // スマホでの誤操作を防ぐため、ズームコントロールの位置を調整することも可能です
-      var map = L.map('map', {
+      const map = L.map('map', {
         zoomControl: false, // デフォルトのズームボタンを一旦非表示（指でピンチ操作するため）
       }).setView([35.665, 139.4], 13);
 
@@ -125,19 +125,32 @@
         })
         .then(function (data) {
           // (A) クラスタグループを作成（この中にマーカーを入れます）
-          var markers = L.markerClusterGroup();
+          const markers = L.markerClusterGroup();
 
           // (B) GeoJSONレイヤーを作成（まだ地図には追加しない）
-          var geoJsonLayer = L.geoJSON(data, {
+          const geoJsonLayer = L.geoJSON(data, {
             onEachFeature: function (feature, layer) {
               if (feature.properties) {
-                var popupHTML = `
-                                <div class="popup-content">
-                                    <h3>${feature.properties.name}</h3>
-                                    <p>${feature.properties.desc}</p>
-                                    <div class="popup-meta">分類: ${feature.properties.type}</div>
-                                </div>
-                            `;
+                // 画像がある場合のHTML生成（データに画像URLがない場合は表示しない）
+                const imageHTML = feature.properties.image
+                  ? `<img src="${feature.properties.image}" style="width:100%; height:auto; margin-bottom:10px; border-radius:4px;">`
+                  : '';
+
+                // 公式リンクがある場合のHTML生成
+                const linkHTML = feature.properties.url
+                  ? `<a href="${feature.properties.url}" target="_blank" style="display:inline-block; margin-top:5px; color:#0078A8;">日野市公式サイトで見る &rarr;</a>`
+                  : '';
+
+                const popupHTML = `
+                  <div class="popup-content" style="max-width:250px;">
+                    ${imageHTML}
+                    <h3>${feature.properties.name}</h3>
+                    <p>${feature.properties.desc}</p>
+                    <div class="popup-meta">分類: ${feature.properties.type}</div>
+                    ${linkHTML}
+                  </div>
+                `;
+
                 layer.bindPopup(popupHTML);
               }
             },
@@ -162,8 +175,8 @@
         // 位置取得中はボタンの文字を変えるなどの工夫も可能
         navigator.geolocation.getCurrentPosition(
           function (position) {
-            var lat = position.coords.latitude;
-            var lng = position.coords.longitude;
+            const lat = position.coords.latitude;
+            const lng = position.coords.longitude;
 
             // 現在地へズーム
             map.setView([lat, lng], 16);
