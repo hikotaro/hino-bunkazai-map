@@ -139,8 +139,24 @@
           // (A) クラスタグループを作成（この中にマーカーを入れます）
           const markers = L.markerClusterGroup();
 
+          // (B) 文化財のアイコンを定義
+          const bunkazaiIcon = L.icon({
+            iconUrl: './img/bunkazai.svg', // 保存したSVGファイルのパス
+            iconSize: [32, 32], // ★サイズを[幅, 高さ]で指定（例: 32px）
+            iconAnchor: [16, 32], // ★アイコンの底辺中央を座標に合わせる [幅/2, 高さ]
+            popupAnchor: [0, -32], // ポップアップがアイコンのすぐ上に出るように調整
+          });
+
           // (B) GeoJSONレイヤーを作成（まだ地図には追加しない）
           const geoJsonLayer = L.geoJSON(data, {
+            pointToLayer: function (feature, latlng) {
+              // feature.properties.name は GeoJSON の "name" プロパティ（公園名や文化財名）
+              return L.marker(latlng, {
+                icon: bunkazaiIcon, // アイコンを設定
+                title: feature.properties.name, // マウスホバー時に名称が表示される
+                alt: feature.properties.name, // スクリーンリーダー読み上げ用（アクセシビリティ対応）
+              });
+            },
             onEachFeature: function (feature, layer) {
               if (feature.properties) {
                 // 画像がある場合のHTML生成（データに画像URLがない場合は表示しない）

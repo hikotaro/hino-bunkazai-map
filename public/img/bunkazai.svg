@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- 屋根の部分 -->
+  <path d="M4 24 Q32 4 60 24 L56 24 L32 8 L8 24 Z" fill="#8B4513" stroke="#5D4037" stroke-width="2"/>
+  <!-- 建物の本体 -->
+  <rect x="12" y="24" width="40" height="24" fill="#D2691E" />
+  <!-- 柱・入り口 -->
+  <rect x="26" y="32" width="12" height="16" fill="#3E2723" />
+  <rect x="14" y="24" width="4" height="24" fill="#5D4037" />
+  <rect x="46" y="24" width="4" height="24" fill="#5D4037" />
+  <!-- 土台 -->
+  <rect x="8" y="48" width="48" height="6" fill="#8B4513" />
+</svg>
