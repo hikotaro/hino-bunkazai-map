@@ -114,23 +114,50 @@
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
 
     <script>
-      // --- 1. 地図の初期化 ---
-      // スマホでの誤操作を防ぐため、ズームコントロールの位置を調整することも可能です
-      const map = L.map('map', {
-        zoomControl: false, // デフォルトのズームボタンを一旦非表示（指でピンチ操作するため）
-      }).setView([35.665, 139.4], 13);
+      // --- 1. 地図タイルの定義 ---
+      // 現代の地図 (OpenStreetMap)
+      const osm = L.tileLayer(
+        'https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+        {
+          attribution:
+            '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+          maxZoom: 19,
+        },
+      );
 
-      // ズームボタンを右下に再配置（お好みで）
+      // 昭和11年頃 (1936年) の東京 - 国土地理院
+      const showaMap = L.tileLayer(
+        'https://cyberjapandata.gsi.go.jp/xyz/ort_old10/{z}/{x}/{y}.png',
+        {
+          attribution:
+            '<a href="https://maps.gsi.go.jp/development/ichiran.html">国土地理院</a>',
+          maxZoom: 17,
+        },
+      );
+
+      // --- 2. 地図の初期化 ---
+      const map = L.map('map', {
+        center: [35.6688, 139.413], // 日野市周辺
+        zoom: 14,
+        layers: [osm], // 最初は現代地図を表示
+        zoomControl: false,
+      });
+
+      // ズームボタンを右下に配置
       L.control.zoom({ position: 'bottomright' }).addTo(map);
 
-      // --- 2. 地図タイルの読み込み ---
-      L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        maxZoom: 19,
-        attribution:
-          '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-      }).addTo(map);
+      // --- 3. レイヤー切り替えコントロールの追加 ---
+      const baseMaps = {
+        現代: osm,
+        '昭和初期(航空写真)': showaMap,
+      };
 
-      // 3. GeoJSONデータの読み込みとクラスタリング
+      // 右上にレイヤー選択メニューを追加
+      L.control
+        .layers(baseMaps, null, { collapsed: false, position: 'topright' })
+        .addTo(map);
+
+      // 4. GeoJSONデータの読み込みとクラスタリング
       fetch('data.geojson')
         .then(function (response) {
           return response.json();
@@ -194,7 +221,7 @@
           console.error('データの読み込みに失敗しました:', error);
         });
 
-      // --- 4. GPS機能 ---
+      // --- 5. GPS機能 ---
       document.getElementById('gps-btn').addEventListener('click', function () {
         if (!navigator.geolocation) {
           alert('位置情報に対応していません。');
